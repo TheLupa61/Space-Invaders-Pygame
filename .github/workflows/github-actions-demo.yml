@@ -21,7 +21,7 @@ jobs:
     - name: Run black
       run: |
         pipenv install -d
-        python3 -m black --check .
+        python3 -m pipenv run black --check .
     - name: Run pipenv and tests
       run: |
         pipenv install -d
