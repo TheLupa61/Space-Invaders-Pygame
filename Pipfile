@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 pygame = "*"
+flake8 = "*"
+black = "*"
 
 [dev-packages]
 pylint = "*"
